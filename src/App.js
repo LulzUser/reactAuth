@@ -54,7 +54,7 @@ function App() {
   const handleSignOut = async () => {
     try {
       firebase.auth().signOut().then(function() {
-        console.log('Signed Out');
+        console.log('Deslogado.');
       });
       setError(null);
       setUser(null)
